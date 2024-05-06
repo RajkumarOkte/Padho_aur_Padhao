@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Year3.css">
+</head>
+<body>
+    <nav>
+        <menu>
+          <menuitem id="demo1">
+            <a>Semester 1</a>
+            <menu>
+              <menuitem><a>about</a>
+              <menu>
+                <menuitem><a>Test 1</a></menuitem>
+                <menuitem><a>Test 2</a></menuitem>
+                <menuitem><a>Test 3</a></menuitem>
+                <menuitem><a>Test 4</a></menuitem>
+             </menu>  
+            </menuitem>
+                   <menuitem>
+                      <a>setting</a>
+                      <menu>
+                         <menuitem><a>Test 1</a></menuitem>
+                         <menuitem><a>Test 2</a></menuitem>
+                         <menuitem><a>Test 3</a></menuitem>
+                         <menuitem><a>Test 4</a></menuitem>
+                      </menu>  
+                   </menuitem>
+              <menuitem><a>help</a>
+              <menu>
+                <menuitem><a>Test 1</a></menuitem>
+                <menuitem><a>Test 2</a></menuitem>
+                <menuitem><a>Test 3</a></menuitem>
+                <menuitem><a>Test 4</a></menuitem>
+             </menu>  
+              </menuitem>
+              <menuitem><a>help 2</a>
+              <menu>
+                <menuitem><a>Test 1</a></menuitem>
+                <menuitem><a>Test 2</a></menuitem>
+                <menuitem><a>Test 3</a></menuitem>
+                <menuitem><a>Test 4</a></menuitem>
+             </menu>  
+              </menuitem>
+
+              <menuitem id="demo2">
+                <a>more</a>
+                <menu>
+                  <menu>
+                    <menuitem><a>Test 1</a></menuitem>
+                    <menuitem><a>Test 2</a></menuitem>
+                    <menuitem><a>Test 3</a></menuitem>
+                    <menuitem><a>Test 4</a></menuitem>
+                 </menu>  
+                
+                
+                   
+                  </menuitem>
+                  <menuitem><a>test</a></menuitem>
+                </menu>
+              </menuitem>
+            </menu>
+          </menuitem>
+             <menuitem><a>no drop</a>
+            <menu>
+                <menu>
+                    <menuitem><a>about</a>
+                    <menu>
+                        <menuitem><a>Test 1</a></menuitem>
+                        <menuitem><a>Test 2</a></menuitem>
+                        <menuitem><a>Test 3</a></menuitem>
+                        <menuitem><a>Test 4</a></menuitem>
+                     </menu>  
+                </menu>
+            </menu>
+            
+        </menuitem>
+
+        
+
+
+
+
+            
+            </menuitem>
+        </menu>
+      </nav>
+
+      <script> var count = 1
+        setTimeout(demo, 500)
+        setTimeout(demo, 700)
+        setTimeout(demo, 900)
+        setTimeout(reset, 2000)
+        
+        setTimeout(demo, 2500)
+        setTimeout(demo, 2750)
+        setTimeout(demo, 3050)
+        
+        
+        var mousein = false
+        function demo() {
+           if(mousein) return
+           document.getElementById('demo' + count++)
+              .classList.toggle('hover')
+           
+        }
+        
+        function demo2() {
+           if(mousein) return
+           document.getElementById('demo2')
+              .classList.toggle('hover')
+        }
+        
+        function reset() {
+           count = 1
+           var hovers = document.querySelectorAll('.hover')
+           for(var i = 0; i < hovers.length; i++ ) {
+              hovers[i].classList.remove('hover')
+           }
+        }
+        
+        document.addEventListener('mouseover', function() {
+           mousein = true
+           reset()
+        })   </script>
+</body>
+</html>
