@@ -12,13 +12,31 @@ table th{
 a{
     text-decoration: none;
     color:#074173;
+    padding: 2px 10px;
+    border-radius: 10px;
+    background-color: transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }  
+h1{
+    border-bottom:2px solid #074173 ;
+}
 fieldset{
     color: #102C57;
 }
 select{
-    color: #102C57 ;
+    color: #EADBC8 ;
     border: 2ps solid #102C57 ;
-    background-color: #EADBC8 ;
+    background-color: #102C57;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+select option{
+    color: #EADBC8;
+    background-color: #102C57;
+}
+thead{
+    font-size: medium;
+    background-color: #102C57;
+    align-items: center;
 }
