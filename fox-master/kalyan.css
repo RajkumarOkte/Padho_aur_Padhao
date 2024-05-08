@@ -1,4 +1,5 @@
 *{
+    
     background-color: #EADBC8;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -39,4 +40,7 @@ thead{
     font-size: medium;
     background-color: #102C57;
     align-items: center;
+}
+td{
+
 }
