@@ -1,3 +1,24 @@
-body{
-    background-color: #CDE8E5;
+*{
+    background-color: #EADBC8;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    border:transparent;
+}
+table th{
+    border: 0.2px solid #102C57;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color:#074173;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+fieldset{
+    color: #102C57;
+}
+select{
+    color: #102C57 ;
+    border: 2ps solid #102C57 ;
+    background-color: #EADBC8 ;
 }
