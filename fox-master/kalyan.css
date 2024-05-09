@@ -59,7 +59,18 @@ td{
     text-decoration: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
-    border:1px solid blanchedalmond;
+    /* border:1px solid blanchedalmond; */
     border-radius: 10px;
     padding: 3px 10px 3px 10px;
+}
+.sub-btn li {
+    text-transform: capitalize;
+    color: bisque;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    border:1px solid rgb(29, 93, 232);
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+
 }

@@ -55,13 +55,16 @@
         <legend>First Year.</legend>
         
         <label for="Semester">Semester 1 & Semester 2- :</label>
-            <select name="Semester" id="Semester"  onchange="window.location.href=this.value;">
-                <option value="#chemistry">Chemistry</option>
-                <option value="#beee">Electical Engineering</option>
-                <option value="#mathematics 1">Mathematics</option>
-                <option value="#engineeringgraphics">Engineering Graphics</option>
-                <option value="#english">English</option>
-            </select>
+            <nav 
+            style="display: flex; flex-direction: row; list-style: none; justify-content: space-evenly;"
+            class="sub-btn"
+            name="Semester" id="Semester"  onchange="window.location.href=this.value;">
+                <li ><a href="#chemistry">chemistry</a></li>
+                <li ><a href="#beee">beee</a> </li>
+                <li ><a href="#mathematics 1">mathematics</a></li>
+                <li ><a href="#engineeringgraphics">engineering graphics</a></li>
+                <li ><a href="#english">english</a></li>
+            </nav>
             <h1>Chemistry</h1>
             <table border="1">
          <thead>
