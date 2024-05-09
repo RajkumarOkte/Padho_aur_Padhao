@@ -5,9 +5,10 @@
 }
 table{
     border:transparent;
+    width: 100%;
 }
 table th{
-    border: 0.2px solid #102C57;
+    border: 1px solid #102C57;
     border-radius: 4px;
 }
 a{
@@ -41,8 +42,13 @@ thead{
     background-color: #102C57;
     align-items: center;
 }
-td{
-
+tbody{
+    border: 2px solid black;
+    width: 100%;
+}
+tr{
+    width: 100%;
+    border: 2px solid black;
 }
 .nav-bar{
     background-color: #102C57;
@@ -67,11 +73,14 @@ td{
     text-transform: capitalize;
     color: bisque;
     text-decoration: none;
-    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
     border:1px solid rgb(29, 93, 232);
     border-radius: 10px;
     padding: 3px 10px 3px 10px;
 
+}
+.row{
+    border: 2px solid black;
+    width: 100%;
 }
