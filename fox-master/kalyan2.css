@@ -1,0 +1,36 @@
+  /* Hide all content sections by default */
+  .content-section {
+    display: none;
+}
+
+/* Show content section when corresponding option is selected */
+.content-section:target {
+    display: block;
+}
+
+
+.content{
+    float:left;
+    width: 24%;
+    margin-left: 12px;
+}
+
+.content img{
+    object-fit: contain;
+    width:100%;
+}
+
+.text_content{
+    float:left;
+    width: 24%;
+    margin-left: 12px;
+}
+
+.text_content img{
+    object-fit: contain;
+    width:100%;
+}
+*{
+    
+    font-size: large;
+}
