@@ -1,3 +1,87 @@
-body{
-    background-color: #CDE8E5;
+*{
+    
+    background-color: #EADBC8;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+table{
+    border:transparent;
+    width: 100%;
+}
+table th{
+    border: 1px solid #102C57;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color:#074173;
+    padding: 2px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+h1{
+    border-bottom:2px solid #074173 ;
+}
+fieldset{
+    color: #102C57;
+}
+select{
+    color: #EADBC8 ;
+    border: 2ps solid #102C57 ;
+    background-color: #102C57;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+select option{
+    color: #EADBC8;
+    background-color: #102C57;
+}
+thead{
+    font-size: medium;
+    background-color: #102C57;
+    align-items: center;
+}
+tbody{
+    border: 2px solid black;
+    width: 100%;
+}
+tr{
+    width: 100%;
+    border: 2px solid black;
+}
+.nav-bar{
+    background-color: #102C57;
+    color:rgb(247, 143, 17);
+    padding: 10px;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    border:2px solid rgb(249, 252, 246);
+    border-radius:10px;
+}
+.nav-bar a{
+    color: bisque;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    /* border:1px solid blanchedalmond; */
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+}
+.sub-btn li {
+    text-transform: capitalize;
+    color: bisque;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    border:1px solid rgb(29, 93, 232);
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+
+}
+.row{
+    border: 2px solid black;
+    width: 100%;
+}
+
