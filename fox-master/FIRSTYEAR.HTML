@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- <<<<<<< HEAD
-     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="kalyan.css"> --> 
-=======
     <title>padho aur padhao - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css ">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css "> 
     <link rel="stylesheet" href="css/animate.css">
     
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -28,7 +22,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="kalyan.css">
->>>>>>> 67c8fc22c233317b0d7a03440532bc7a7ed004ef
+
         <style>
         /* Hide all content sections by default */
         .content-section {
@@ -63,33 +57,83 @@
             width:100%;
         }
 
+        td{
+            text-align: center;
+            font-size: x-large;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        th{
+            text-align: center;
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: serif;
+        }
 
     </style>
 </head>
 <body>
-    <div class="nav-bar">
-        <a href="home">HOME
-        </a>
-        <a href="about us">ABOUT US</a>
-        <a href="help">HELP</a>
-        <a href="student">STUDENT</a>
-      </div>
+    <div class="bg-top navbar-light" style="margin: 0; display: flex; justify-content: space-between;">
+    	<div class="container" style="margin: 0; ">
+    		<div class="row no-gutters d-flex align-items-center align-items-stretch" style="border: none;">
+    			<div class="col-md-4 d-flex align-items-center py-4" >
+    				<a class="navbar-brand" href="index.html">Padho Aur Padhao <span> website</span></a>
+    			</div>
+	    		<div class="col-lg-8 d-block">
+		    		<div class="row d-flex" style="border: none;">
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<!-- <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div> -->
+					    	
+					    </div>
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<!-- <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div> -->
+						    
+					    </div>
+					    <!-- <div class="col-md topper d-flex align-items-center justify-content-end">
+					    	<p class="mb-0">
+					    		<a href="#" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+					    			<span>Apply now</span>
+					    		</a>
+					    	</p>
+					    </div> -->
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+    </div>
+    <nav  id="navv" style="display: flex; justify-content: space-evenly; align-items: center; background-color: #0d1128; height: 5rem; cursor: pointer ; font-family:serif;">
+		<a style="color: white;" href="index.html">Home</a>
+		<a style="color: white;" href="about.html">About</a>
+		<a style="color: white;" href="courses.html">Courses</a>
+		<a style="color: white;" href="blog.html">Blog</a>
+		<a style="color: white;" href="contact.html">Contact</a>
+	</nav>
+    <!-- End Nav Bar -->
       
-    <fieldset >
-        <legend>First Year.</legend>
+    <fieldset style=" padding:0rem 2rem 0rem 2rem;">
+        <!-- <legend>First Year.</legend> -->
+        <div style="border: 2px solid #0d1128; margin-top: 2rem; padding-bottom: 1rem;border-radius: 1.1rem;">
+            <h1 style="text-align: center; font-weight: bolder; background-color: #0d1128; color: white; border-radius: 1rem 1rem 0rem 0rem;">First Year</h1>
+            <div style="display: flex; justify-content: space-around;">
+               <div style="font-size: xx-large; border: 1px solid black; border-radius: 1rem;"><a style="display: inline;" href="#Sem1">Semester 1</a></div>
+               <div style="font-size: xx-large; border: 1px solid black; border-radius: 1rem;"><a style="display: inline;" href="#Sem2">Semester 2</a></div>
+            </div>
+        </div>
+            <br>
         
-        <label for="Semester">Semester 1 & Semester 2- :</label>
+        <!-- <label for="Semester">Semester 1 & Semester 2- :</label> -->
+        <h1 style="text-align: center; font-weight: bolder;" id="Sem1">Semester 1</h1>
             <nav 
             style="display: flex; flex-direction: row; list-style: none; justify-content: space-evenly;"
             class="sub-btn"
             name="Semester" id="Semester"  onchange="window.location.href=this.value;">
                 <li ><a href="#chemistry">chemistry</a></li>
                 <li ><a href="#beee">beee</a> </li>
-                <li ><a href="#mathematics 1">mathematics</a></li>
+                <li ><a href="#mathematics 1">mathematics 1 </a></li>
                 <li ><a href="#engineeringgraphics">engineering graphics</a></li>
                 <li ><a href="#english">english</a></li>
             </nav>
-            <h1>Chemistry <img src="./images/chemistry.svg" style="width: 90px; height: 80px;"></h1>
+            <h1 style="text-align: center; padding-top: 5rem; padding-bottom: 1rem;">Chemistry <img src="./images/chemistry.svg" style="width: 90px; height: 80px;"></h1>
             <table border="1"  class="ftco-animate fadeInUp ftco-animated">
          <thead>
         <th>No.</th>
@@ -107,8 +151,9 @@
             <td>Unit 1</td>
             <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
             <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
-            <td ><a href="www.google.com"><img src="./images/pyq.svg" style="width: 40px;"></a></td>
-            <td><a href="abc.com">Top 10 imp</a></td>
+            <td ><a href="www.google.com"><img src="images/pyq2.jpg" style="width: 50px;"></a></td>
+            <td><a href="abc.com">top 10 imp</a></td>
+       
         </tr>
         <tr>
             <td>2.</td>
@@ -147,14 +192,14 @@
         </tbody>
      </table>
 
-     <h1 id="beee">Basic Electical Engineering</h1>
+     <h1 style="text-align: center; padding-top: 2rem;" id="beee">Basic Electical Engineering <img src="images/beee.svg" style="width: 90px; height: 80px;"> </h1>
      <table border="1" class="ftco-animate fadeInUp ftco-animated" data-scrollax-parent="true">
   <thead>
  <th>No.</th>
  <th>Units</th>
- <t class="ftco-animate fadeInUp ftco-animated"h>PDF's</th>
+ <th>PDF's</th>
  <th>Youtube link</th>
- <th>PYQ's</th>
+ <th>PYQ's></th>
  <th>Last min questions.(IMP)</th>
  
          </thead>
@@ -204,7 +249,7 @@
  </tr>
  
 </table>
-<h1 id="mathematics 1">Mathematics 1</h1>
+<h1 style="text-align: center; padding-top: 2rem;" id="mathematics 1">Mathematics 1</h1>
 <table border="1" class="ftco-animate fadeInUp ftco-animated">
 <thead>
 <th>No.</th>
@@ -220,16 +265,16 @@
 <tr>
 <td>1.</td>
 <td>Unit 1</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21741&authkey=APAKsnhVcbqdNCY&em=2>" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 10 imp</a></td>
 </tr>
 <tr>
 <td>2.</td>
 <td>Unit 2</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21739&authkey=AAuQlFrBOy2kPF4&em=2" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 15 imp</a></td>
 </tr>
@@ -237,17 +282,17 @@
 <tr>
 <td>3.</td>
 <td>Unit 3</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<!-- <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" >Rgpv.</a></td> -->
-<td><a href="google">$1000</a></td>
+<td><a href="" target="_blank">Rgpv.</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21736&authkey=AHzzklyu2iWoY94&em=2" >Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 8 imp</a></td>
 </tr>
 <tr>
 <td>4.</td>
 <td>Unit 4</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21734&authkey=ANfnLdforq-jL_E&em=2" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 12 imp</a></td>
 
@@ -255,14 +300,14 @@
 <tr>
 <td>5.</td>
 <td>Unit 5</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google"><i class="fi fi-brands-youtube"></i></a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21735&authkey=AIHcYXXPJVSMdoE&em=2" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 20 imp</a></td>
 </tr>
 </table>
 
-<h1 id="engineeringgraphics">Engineering Graphics</h1>
+<h1 style="text-align: center; padding-top: 2rem;" id="engineeringgraphics">Engineering Graphics <img src="images/pencil-draw-svgrepo-com.svg" style="width: 90px; height: 80px;"</h1>
 <table border="1" class="ftco-animate fadeInUp ftco-animated">
 <thead>
 <th>No.</th>
@@ -278,8 +323,8 @@
 <tr>
 <td>1.</td>
 <td>Unit 1</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google"><img src="https://fontawesome.com/icons/youtube?f=brands&s=solid" alt=""></a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21758&authkey=AHJej6xFFiCGadc&em=2td">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 10 imp</a></td>
 </tr>
@@ -287,7 +332,7 @@
 <td>2.</td>
 <td>Unit 2</td>
 <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 15 imp</a></td>
 </tr>
@@ -296,7 +341,7 @@
 <td>3.</td>
 <td>Unit 3</td>
 <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 8 imp</a></td>
 </tr>
@@ -304,7 +349,7 @@
 <td>4.</td>
 <td>Unit 4</td>
 <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 12 imp</a></td>
 
@@ -313,14 +358,14 @@
 <td>5.</td>
 <td>Unit 5</td>
 <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">youtube</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 20 imp</a></td>
 </tr>
 </tbody>
 </table>
 
-<h1 id="english">English</h1>
+<h1 style="text-align: center; padding-top: 2rem;" id="english">English</h1>
 <table border="1" class="ftco-animate fadeInUp ftco-animated
 ">
 <thead>
@@ -336,16 +381,259 @@
 <tr>
 <td>1.</td>
 <td>Unit 1</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21745&authkey=AA-JypEi0HrsoNM&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 10 imp</a></td>
 </tr>
 <tr>
 <td>2.</td>
 <td>Unit 2</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21743&authkey=AC78AoSR_4BRCZY&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 15 imp</a></td>
+</tr>
+</tr> 
+<tr>
+<td>3.</td>
+<td>Unit 3</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21740&authkey=AOQpgV0EfvwcYE0&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 8 imp</a></td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Unit 4</td>
+<td><a href="https://www.rgpvnotes.in/notes-redirect?redirectToUrl=https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21737&authkey=AJ1NnrvosPljRfA&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 12 imp</a></td>
+
+</tr>
+<tr>
+<td>5.</td>
+<td>Unit 5</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21738&authkey=AB_DvcdpBjMH1zo&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 20 imp</a></td>
+</tr>
+</tbody>
+</table>
+
+<h1 style="text-align: center; font-weight: bolder;" id="Sem1">Semester 2</h1>
+        <nav 
+            style="display: flex; flex-direction: row; list-style: none; justify-content: space-evenly;"
+            class="sub-btn"
+            name="Semester" id="Semester"  onchange="window.location.href=this.value;">
+            <li ><a href="#Sub1">Sub1</a></li>
+            <li ><a href="#Sub2">Sub2</a> </li>
+            <li ><a href="#Sub3">Sub3</a></li>
+            <li ><a href="#Sub4">Sub4</a></li>
+            <li ><a href="#Sub5">Sub5</a></li>
+        </nav>
+        <h1 style="text-align: center; padding-top: 5rem; padding-bottom: 1rem;">Sub 1 <img src="./images/chemistry.svg" style="width: 90px; height: 80px;"></h1>
+            <table border="1"  class="ftco-animate fadeInUp ftco-animated">
+         <thead>
+        <th>No.</th>
+        <th>Units</th>
+        <th>PDF's</th>
+        <th>Youtube link</th>
+        <th>PYQ's</th>
+        <th>Last min questions.(IMP)</th>
+        
+                </thead>
+        
+        <tbody style="border: 2px solid black;">
+        <tr >
+            <td >1.</td>
+            <td>Unit 1</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="images/book.svg" style="width: 50px;"></a></td>
+            <td><a href="abc.com">top 10 imp</a></td>
+       
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Unit 2</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com">FOUNDER</a></td>
+            <td><a href="abc.com">Top 15 imp</a></td>
+        </tr>
+        </tr> 
+        <tr>
+            <td>3.</td>
+            <td>Unit 3</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21730&authkey=ABXRxLpF2erhmDk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+             <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com">FOUNDER</a></td>
+            <td><a href="abc.com">Top 8 imp</a></td>
+        </tr>
+         <tr>
+            <td>4.</td>
+            <td>Unit 4</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21733&authkey=AAC-cwr-tc_r2Bk&em=2"target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com">FOUNDER</a></td>
+            <td><a href="abc.com">Top 12 imp</a></td>
+            
+        </tr>
+         <tr>
+            <td>5.</td>
+            <td>Unit 5</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+             <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com">FOUNDER</a></td>
+            <td><a href="abc.com">Top 20 imp</a></td>
+        </tr>
+        </tbody>
+     </table>
+
+     <h1 style="text-align: center; padding-top: 2rem;" id="beee">Sub 2 <img src="images/beee.svg" style="width: 90px; height: 80px;"> </h1>
+     <table border="1" class="ftco-animate fadeInUp ftco-animated" data-scrollax-parent="true">
+  <thead>
+ <th>No.</th>
+ <th>Units</th>
+ <th>PDF's</th>
+ <th>Youtube link</th>
+ <th>PYQ's></th>
+ <th>Last min questions.(IMP)</th>
+ 
+         </thead>
+ 
+ <tbody>
+ <tr>
+     <td>1.</td>
+     <td>Unit 1</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
+      <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com">FOUNDER</a></td>
+     <td><a href="abc.com">Top 10 imp</a></td>
+ </tr>
+ <tr>
+     <td>2.</td>
+     <td>Unit 2</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
+     <td><a href="google">$1000</a></td>
+     <td ><a href="www.google.com">FOUNDER</a></td>
+     <td><a href="abc.com">Top 15 imp</a></td>
+ </tr>
+ </tr> 
+ <tr>
+     <td>3.</td>
+     <td>Unit 3</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
+     <td><a href="google">$1000</a></td>
+     <td ><a href="www.google.com">FOUNDER</a></td>
+     <td><a href="abc.com">Top 8 imp</a></td>
+ </tr>
+  <tr>
+     <td>4.</td>
+     <td>Unit 4</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
+     <td><a href="google">$1000</a></td>
+     <td ><a href="www.google.com">FOUNDER</a></td>
+     <td><a href="abc.com">Top 12 imp</a></td>
+     
+ </tr>
+  <tr>
+     <td>5.</td>
+     <td>Unit 5</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
+     <td><a href="google">$1000</a></td>
+     <td ><a href="www.google.com">FOUNDER</a></td>
+     <td><a href="abc.com">Top 20 imp</a></td>
+ </tr>
+ 
+</table>
+<h1 style="text-align: center; padding-top: 2rem;" id="mathematics 1">Sub 3</h1>
+<table border="1" class="ftco-animate fadeInUp ftco-animated">
+<thead>
+<th>No.</th>
+<th>Units</th>
+<th>PDF </th>
+<th>Youtube link</th>
+<th>PYQ's</th>
+<th>Last min questions.(IMP)</th>
+
+    </thead>
+
+<tbody>
+<tr>
+<td>1.</td>
+<td>Unit 1</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21741&authkey=APAKsnhVcbqdNCY&em=2>" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 10 imp</a></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Unit 2</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21739&authkey=AAuQlFrBOy2kPF4&em=2" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 15 imp</a></td>
+</tr>
+</tr> 
+<tr>
+<td>3.</td>
+<td>Unit 3</td>
+<td><a href="" target="_blank">Rgpv.</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21736&authkey=AHzzklyu2iWoY94&em=2" >Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 8 imp</a></td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Unit 4</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21734&authkey=ANfnLdforq-jL_E&em=2" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 12 imp</a></td>
+
+</tr>
+<tr>
+<td>5.</td>
+<td>Unit 5</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21735&authkey=AIHcYXXPJVSMdoE&em=2" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 20 imp</a></td>
+</tr>
+</table>
+
+<h1 style="text-align: center; padding-top: 2rem;" id="engineeringgraphics">Sub 4 <img src="images/pencil-draw-svgrepo-com.svg" style="width: 90px; height: 80px;"</h1>
+<table border="1" class="ftco-animate fadeInUp ftco-animated">
+<thead>
+<th>No.</th>
+<th>Units</th>
+<th>PDF </th>
+<th>Youtube link</th>
+<th>PYQ's</th>
+<th>Last min questions.(IMP)</th>
+
+    </thead>
+
+<tbody>
+<tr>
+<td>1.</td>
+<td>Unit 1</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21758&authkey=AHJej6xFFiCGadc&em=2td">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 10 imp</a></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Unit 2</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 15 imp</a></td>
 </tr>
@@ -354,7 +642,7 @@
 <td>3.</td>
 <td>Unit 3</td>
 <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 8 imp</a></td>
 </tr>
@@ -362,7 +650,7 @@
 <td>4.</td>
 <td>Unit 4</td>
 <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 12 imp</a></td>
 
@@ -370,8 +658,66 @@
 <tr>
 <td>5.</td>
 <td>Unit 5</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 20 imp</a></td>
+</tr>
+</tbody>
+</table>
+
+<h1 style="text-align: center; padding-top: 2rem;" id="english">Sub 5</h1>
+<table border="1" class="ftco-animate fadeInUp ftco-animated
+">
+<thead>
+<th>No.</th>
+<th>Units</th>
+<th>PDF </th>
+<th>Youtube link</th>
+<th>PYQ's</th>
+<th>Last min questions.(IMP)</th>
+</thead>
+
+<tbody>
+<tr>
+<td>1.</td>
+<td>Unit 1</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21745&authkey=AA-JypEi0HrsoNM&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 10 imp</a></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Unit 2</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21743&authkey=AC78AoSR_4BRCZY&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 15 imp</a></td>
+</tr>
+</tr> 
+<tr>
+<td>3.</td>
+<td>Unit 3</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21740&authkey=AOQpgV0EfvwcYE0&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 8 imp</a></td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Unit 4</td>
+<td><a href="https://www.rgpvnotes.in/notes-redirect?redirectToUrl=https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21737&authkey=AJ1NnrvosPljRfA&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="abc.com">Top 12 imp</a></td>
+
+</tr>
+<tr>
+<td>5.</td>
+<td>Unit 5</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21738&authkey=AB_DvcdpBjMH1zo&em=2"target="_blank">Rgpv.</a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
 <td ><a href="www.google.com">FOUNDER</a></td>
 <td><a href="abc.com">Top 20 imp</a></td>
 </tr>
