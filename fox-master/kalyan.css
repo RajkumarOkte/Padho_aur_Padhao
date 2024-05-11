@@ -84,4 +84,8 @@ tr{
     border: 2px solid black;
     width: 100%;
 }
-
+tr td a img{
+    border-radius: 15px;
+    height: 40px;
+    width:30px;
+}
