@@ -4,7 +4,13 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
+#navv a:hover {
+ color:#fd7e14;
+}
+#ftco-navbar #ftco-nav ul li a{
+
+  margin:0px 65px;
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
