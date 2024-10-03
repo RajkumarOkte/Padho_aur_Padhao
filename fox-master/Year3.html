@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/Year3.css">
-     
+    <title>padho aur padhao - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css ">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css "> 
     <link rel="stylesheet" href="css/animate.css">
     
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -23,266 +22,232 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="1styear.css">
+
+        <style>
+        /* Hide all content sections by default */
+        .content-section {
+            display: none;
+        }
+        
+        /* Show content section when corresponding option is selected */
+        .content-section:target {
+            display: block;
+        }
+
+
+        .content{
+            float:left;
+            width: 24%;
+            margin-left: 12px;
+        }
+
+        .content img{
+            object-fit: contain;
+            width:100%;
+        }
+
+        .text_content{
+            float:left;
+            width: 24%;
+            margin-left: 12px;
+        }
+
+        .text_content img{
+            object-fit: contain;
+            width:100%;
+        }
+
+        td{
+            text-align: center;
+            font-size: x-large;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        th{
+            text-align: center;
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: serif;
+        }
+
+    </style>
 </head>
 <body>
-    <!-- <nav>
-        <menu>
-          <menuitem id="demo1">
-            <a>Semester 1</a>
-            <menu>
-              <menuitem><a>about</a>
-              <menu>
-                <menuitem><a>Test 1</a></menuitem>
-                <menuitem><a>Test 2</a></menuitem>
-                <menuitem><a>Test 3</a></menuitem>
-                <menuitem><a>Test 4</a></menuitem>
-             </menu>  
-            </menuitem>
-                   <menuitem>
-                      <a>setting</a>
-                      <menu>
-                         <menuitem><a>Test 1</a></menuitem>
-                         <menuitem><a>Test 2</a></menuitem>
-                         <menuitem><a>Test 3</a></menuitem>
-                         <menuitem><a>Test 4</a></menuitem>
-                      </menu>  
-                   </menuitem>
-              <menuitem><a>help</a>
-              <menu>
-                <menuitem><a>Test 1</a></menuitem>
-                <menuitem><a>Test 2</a></menuitem>
-                <menuitem><a>Test 3</a></menuitem>
-                <menuitem><a>Test 4</a></menuitem>
-             </menu>  
-              </menuitem>
-              <menuitem><a>help 2</a>
-              <menu>
-                <menuitem><a>Test 1</a></menuitem>
-                <menuitem><a>Test 2</a></menuitem>
-                <menuitem><a>Test 3</a></menuitem>
-                <menuitem><a>Test 4</a></menuitem>
-             </menu>  
-              </menuitem>
-
-              <menuitem id="demo2">
-                <a>more</a>
-                <menu>
-                  <menu>
-                    <menuitem><a>Test 1</a></menuitem>
-                    <menuitem><a>Test 2</a></menuitem>
-                    <menuitem><a>Test 3</a></menuitem>
-                    <menuitem><a>Test 4</a></menuitem>
-                 </menu>  
-                
-                
-                   
-                  </menuitem>
-                  <menuitem><a>test</a></menuitem>
-                </menu>
-              </menuitem>
-            </menu>
-          </menuitem>
-             <menuitem><a>Semester 2</a>
-            <menu>
-                <menu>
-                    <menuitem><a>about</a>
-                    <menu>
-                        <menuitem><a>Test 1</a></menuitem>
-                        <menuitem><a>Test 2</a></menuitem>
-                        <menuitem><a>Test 3</a></menuitem>
-                        <menuitem><a>Test 4</a></menuitem>
-                     </menu>  
-                </menu>
-            </menu>
-            
-        </menuitem>
-
-        
-
-
-
-
-            
-            </menuitem>
-        </menu>
-      </nav>
-
-      <script> var count = 1
-        setTimeout(demo, 500)
-        setTimeout(demo, 700)
-        setTimeout(demo, 900)
-        setTimeout(reset, 2000)
-        
-        setTimeout(demo, 2500)
-        setTimeout(demo, 2750)
-        setTimeout(demo, 3050)
-        
-        
-        var mousein = false
-        function demo() {
-           if(mousein) return
-           document.getElementById('demo' + count++)
-              .classList.toggle('hover')
-           
-        }
-        
-        function demo2() {
-           if(mousein) return
-           document.getElementById('demo2')
-              .classList.toggle('hover')
-        }
-        
-        function reset() {
-           count = 1
-           var hovers = document.querySelectorAll('.hover')
-           for(var i = 0; i < hovers.length; i++ ) {
-              hovers[i].classList.remove('hover')
-           }
-        }
-        
-        document.addEventListener('mouseover', function() {
-           mousein = true
-           reset()
-        })   </script> -->
-<body>
-   <div class="nav-bar">
-      <a href="home">HOME
-      </a>
-      <a href="about us">ABOUT US</a>
-      <a href="help">HELP</a>
-      <a href="student">STUDENT</a>
+    <div class="bg-top navbar-light" style="margin: 0; display: flex; justify-content: space-between;">
+    	<div class="container" style="margin: 0; ">
+    		<div class="row no-gutters d-flex align-items-center align-items-stretch" style="border: none;">
+    			<div class="col-md-4 d-flex align-items-center py-4" >
+    				<a class="navbar-brand" href="index.html">Padho Aur Padhao <span> Where Learning Never Stops </span></a>
+    			</div>
+	    		<div class="col-lg-8 d-block">
+		    		<div class="row d-flex" style="border: none;">
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<!-- <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div> -->
+					    	
+					    </div>
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<!-- <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div> -->
+						    
+					    </div>
+					    <!-- <div class="col-md topper d-flex align-items-center justify-content-end">
+					    	<p class="mb-0">
+					    		<a href="#" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+					    			<span>Apply now</span>
+					    		</a>
+					    	</p>
+					    </div> -->
+				    </div>
+			    </div>
+		    </div>
+		  </div>
     </div>
-    
-  <fieldset >
-      <legend>First Year.</legend>
+    <nav  id="navv" style="display: flex; justify-content: space-evenly; align-items: center; background-color: #0d1128; height: 5rem; cursor: pointer ; font-family:serif;">
+		<a style="color: white;" href="index.html">Home</a>
+		<a style="color: white;" href="about.html">About</a>
+		<a style="color: white;" href="courses.html">Courses</a>
+		<a style="color: white;" href="blog.html">Blog</a>
+		<a style="color: white;" href="contact.html">Contact</a>
+	</nav>
+    <!-- End Nav Bar -->
       
-      <label for="Semester">Semester 1 & Semester 2- :</label>
-          <nav 
-          style="display: flex; flex-direction: row; list-style: none; justify-content: space-evenly;"
-          class="sub-btn"
-          name="Semester" id="Semester"  onchange="window.location.href=this.value;">
-              <li ><a href="#chemistry">chemistry</a></li>
-              <li ><a href="#beee">beee</a> </li>
-              <li ><a href="#mathematics 1">mathematics</a></li>
-              <li ><a href="#engineeringgraphics">engineering graphics</a></li>
-              <li ><a href="#english">english</a></li>
-          </nav>
-          <h1>Chemistry <img src="./images/chemistry.svg" style="width: 90px; height: 80px;"></h1>
-          <table border="1"  class="ftco-animate fadeInUp ftco-animated">
-       <thead>
-      <th>No.</th>
-      <th>Units</th>
-      <th>PDF's</th>
-      <th>Youtube link</th>
-      <th>PYQ's</th>
-      <th>Last min questions.(IMP)</th>
-      
-              </thead>
-      
-      <tbody style="border: 2px solid black;">
-      <tr >
-          <td >1.</td>
-          <td>Unit 1</td>
-          <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" alt=""></a></td>
-          <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
-          <td ><a href="www.google.com"><img src="./images/pyq.svg" style="width: 40px;"></a></td>
-          <td><a href="abc.com">Top 10 imp</a></td>
-      </tr>
-      <tr>
-          <td>2.</td>
-          <td>Unit 2</td>
-          <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-          <td><a href="google">$1000</a></td>
-          <td ><a href="www.google.com">FOUNDER</a></td>
-          <td><a href="abc.com">Top 15 imp</a></td>
-      </tr>
-      </tr> 
-      <tr>
-          <td>3.</td>
-          <td>Unit 3</td>
-          <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-          <td><a href="google">$1000</a></td>
-          <td ><a href="www.google.com">FOUNDER</a></td>
-          <td><a href="abc.com">Top 8 imp</a></td>
-      </tr>
-       <tr>
-          <td>4.</td>
-          <td>Unit 4</td>
-          <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-          <td><a href="google">$1000</a></td>
-          <td ><a href="www.google.com">FOUNDER</a></td>
-          <td><a href="abc.com">Top 12 imp</a></td>
-          
-      </tr>
-       <tr>
-          <td>5.</td>
-          <td>Unit 5</td>
-          <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-          <td><a href="google">$1000</a></td>
-          <td ><a href="www.google.com">FOUNDER</a></td>
-          <td><a href="abc.com">Top 20 imp</a></td>
-      </tr>
-      </tbody>
-   </table>
+    <fieldset style=" padding:0rem 2rem 0rem 2rem;">
+        <!-- <legend>First Year.</legend> -->
+        <div style="border: 2px solid #0d1128; margin-top: 2rem; padding-bottom: 1rem;border-radius: 1.1rem;">
+            <h1 style="text-align: center; font-weight: bolder; background-color: #0d1128; color: white; border-radius: 1rem 1rem 0rem 0rem;">First Year</h1>
+            <div style="display: flex; justify-content: space-around;">
+               <div style="font-size: xx-large; border: 1px solid black; border-radius: 1rem;"><a style="display: inline;" href="#Sem1">Semester 1</a></div>
+               <div style="font-size: xx-large; border: 1px solid black; border-radius: 1rem;"><a style="display: inline;" href="#Sem2">Semester 2</a></div>
+            </div>
+        </div>
+            <br>
+        
+        <!-- <label for="Semester">Semester 1 & Semester 2- :</label> -->
+        <h1 style="text-align: center; font-weight: bolder;" id="Sem1">Semester 1</h1>
+            <nav 
+            style="display: flex; flex-direction: row; list-style: none; justify-content: space-evenly;"
+            class="sub-btn"
+            name="Semester" id="Semester"  onchange="window.location.href=this.value;">
+                <li ><a href="#chemistry">chemistry</a></li>
+                <li ><a href="#beee">beee</a> </li>
+                <li ><a href="#mathematics 1">mathematics 1 </a></li>
+                <li ><a href="#engineeringgraphics">engineering graphics</a></li>
+                <li ><a href="#english">english</a></li>
+            </nav>
+            <h1 style="text-align: center; padding-top: 5rem; padding-bottom: 1rem;">Chemistry <img src="./images/chemistry.svg" style="width: 80px; height: 80px;"></h1>
+            <table border="1"  class="ftco-animate fadeInUp ftco-animated">
+         <thead>
+        <th>No.</th>
+        <th>Units</th>
+        <th>PDF's</th>
+        <th>Youtube link</th>
+        <th>PYQ's</th>
+        <th>Last min questions.(IMP)</th>
+        
+                </thead>
+        
+        <tbody style="border: 2px solid black;">
+        <tr >
+            <td >1.</td>
+            <td>Unit 1</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="hhttps://youtu.be/xFGUTzBlAP8?si=2b3QNRL7Izrc59of"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-101-engineering-chemistry-1st-year">top 10 imp</a></td>
+       
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Unit 2</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="https://youtube.com/playlist?list=PL3qvHcrYGy1sU_1nMMVrfFEhYROpQtVXV&si=0om998m7ky3qmeqp"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;" >
+            <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-101-engineering-chemistry-1st-year">Top 15 imp</a></td>
+        </tr>
+        </tr> 
+        <tr>
+            <td>3.</td>
+            <td>Unit 3</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21730&authkey=ABXRxLpF2erhmDk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+             <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-101-engineering-chemistry-1st-year">Top 8 imp</a></td>
+        </tr>
+         <tr>
+            <td>4.</td>
+            <td>Unit 4</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21733&authkey=AAC-cwr-tc_r2Bk&em=2"target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-101-engineering-chemistry-1st-year">Top 12 imp</a></td>
+            
+        </tr>
+         <tr>
+            <td>5.</td>
+            <td>Unit 5</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+             <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-101-engineering-chemistry-1st-year">Top 20 imp</a></td>
+        </tr>
+        </tbody>
+     </table>
 
-   <h1 id="beee">Basic Electical Engineering</h1>
-   <table border="1" class="ftco-animate fadeInUp ftco-animated" data-scrollax-parent="true">
-<thead>
-<th>No.</th>
-<th>Units</th>
-<t class="ftco-animate fadeInUp ftco-animated"h>PDF's</th>
-<th>Youtube link</th>
-<th>PYQ's</th>
-<th>Last min questions.(IMP)</th>
-
-       </thead>
-
-<tbody>
-<tr>
-   <td>1.</td>
-   <td>Unit 1</td>
-   <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-   <td><a href="google">$1000</a></td>
-   <td ><a href="www.google.com">FOUNDER</a></td>
-   <td><a href="abc.com">Top 10 imp</a></td>
-</tr>
-<tr>
-   <td>2.</td>
-   <td>Unit 2</td>
-   <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-   <td><a href="google">$1000</a></td>
-   <td ><a href="www.google.com">FOUNDER</a></td>
-   <td><a href="abc.com">Top 15 imp</a></td>
-</tr>
-</tr> 
-<tr>
-   <td>3.</td>
-   <td>Unit 3</td>
-   <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-   <td><a href="google">$1000</a></td>
-   <td ><a href="www.google.com">FOUNDER</a></td>
-   <td><a href="abc.com">Top 8 imp</a></td>
-</tr>
-<tr>
-   <td>4.</td>
-   <td>Unit 4</td>
-   <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-   <td><a href="google">$1000</a></td>
-   <td ><a href="www.google.com">FOUNDER</a></td>
-   <td><a href="abc.com">Top 12 imp</a></td>
-   
-</tr>
-<tr>
-   <td>5.</td>
-   <td>Unit 5</td>
-   <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-   <td><a href="google">$1000</a></td>
-   <td ><a href="www.google.com">FOUNDER</a></td>
-   <td><a href="abc.com">Top 20 imp</a></td>
-</tr>
-
+     <h1 style="text-align: center; padding-top: 2rem;" id="beee">Basic Electical Engineering <img src="images/beee.svg" style="width: 80px; height: 80px;"> </h1>
+     <table border="1" class="ftco-animate fadeInUp ftco-animated" data-scrollax-parent="true">
+  <thead>
+ <th>No.</th>
+ <th>Units</th>
+ <th>PDF's</th>
+ <th>Youtube link</th>
+ <th>PYQ's<th>Last min questions.(IMP)</th>
+ 
+         </thead>
+ 
+ <tbody>
+ <tr>
+     <td>1.</td>
+     <td>Unit 1</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+      <td><a href="https://youtube.com/playlist?list=PLKS7ZMKnbPrQZZoeQJGYojStGLstMnffL&si=jbwg8q90pBx73M3G"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-104-beee-1st-year">Top 10 imp</a></td>
+ </tr>
+ <tr>
+     <td>2.</td>
+     <td>Unit 2</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+     <td><a href="https://youtube.com/playlist?list=PLDN15nk5uLiCD8HljuyVX86WVeqTCml33&si=Vxg2rs_DROYJG8Mg"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-104-beee-1st-year">Top 15 imp</a></td>
+ </tr>
+ </tr> 
+ <tr>
+     <td>3.</td>
+     <td>Unit 3</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>>
+     <td><a href="https://youtube.com/playlist?list=PLDN15nk5uLiAqcXbOEJ8JErQ_iF1E5J7O&si=ns3r5aotUeSGFc4o"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-104-beee-1st-year">Top 8 imp</a></td>
+ </tr>
+  <tr>
+     <td>4.</td>
+     <td>Unit 4</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+     <td><a href="https://youtube.com/playlist?list=PLm_MSClsnwm9tkqqMxUjPA80B9rtVxZ6B&si=LF2mzmK5aQnTHJvd"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-104-beee-1st-year">Top 12 imp</a></td>
+     
+ </tr>
+  <tr>
+     <td>5.</td>
+     <td>Unit 5</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+     <td><a href="https://youtube.com/playlist?list=PLkojphh8hBnYmJLn5-UjmUXvjb6RDAtNe&si=OHEY9kKXV5ySPTjP"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-104-beee-1st-year">Top 20 imp</a></td>
+ </tr>m
+ 
 </table>
-<h1 id="mathematics 1">Mathematics 1</h1>
+<h1 style="text-align: center; padding-top: 2rem;" id="mathematics 1">Mathematics 1 <img src="images/m1logo.svg" style="width: 70px; height: 70px;"></h1>
 <table border="1" class="ftco-animate fadeInUp ftco-animated">
 <thead>
 <th>No.</th>
@@ -292,55 +257,356 @@
 <th>PYQ's</th>
 <th>Last min questions.(IMP)</th>
 
-  </thead>
+    </thead>
 
 <tbody>
 <tr>
 <td>1.</td>
 <td>Unit 1</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLdM-WZokR4tagRFQHnbug8pNYugGXUx6b&si=MteixsM16zF1SVRg"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-102-mathematics-i-1st-year">Top 10 imp</a></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Unit 2</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLdM-WZokR4tagRFQHnbug8pNYugGXUx6b&si=MteixsM16zF1SVRg"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-102-mathematics-i-1st-year">Top 15 imp</a></td>
+</tr>
+</tr> 
+<tr>
+<td>3.</td>
+<td>Unit 3</td>
+
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLdM-WZokR4tagRFQHnbug8pNYugGXUx6b&si=FttwzIybK4vJGiIS"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-102-mathematics-i-1st-year">Top 8 imp</a></td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Unit 4</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLdM-WZokR4tagRFQHnbug8pNYugGXUx6b&si=FttwzIybK4vJGiIS"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-102-mathematics-i-1st-year">Top 12 imp</a></td>
+
+</tr>
+<tr>
+<td>5.</td>
+<td>Unit 5</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLdM-WZokR4tagRFQHnbug8pNYugGXUx6b&si=FttwzIybK4vJGiIS"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/important-rgpv-question-bt-102-mathematics-i-1st-year">Top 20 imp</a></td>
+</tr>
+</table>
+
+<h1 style="text-align: center; padding-top: 2rem;" id="engineeringgraphics">Engineering Graphics <img src="images/pencil-draw-svgrepo-com.svg" style="width: 70px; height: 70px;"></h1>
+<table border="1" class="ftco-animate fadeInUp ftco-animated">
+<thead>
+<th>No.</th>
+<th>Units</th>
+<th>PDF </th>
+<th>Youtube link</th>
+<th>PYQ's</th>
+<th>Last min questions.(IMP)</th>
+
+    </thead>
+
+<tbody>
+<tr>
+<td>1.</td>
+<td>Unit 1</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLDN15nk5uLiD3MEUiqsYPnZOHcVu7um6_&si=-QOK-aBXwk4hlYMc"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/rgpv-question-papers-bt-105-engineering-graphics">Top 15 imp</a></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Unit 2</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLDN15nk5uLiD3MEUiqsYPnZOHcVu7um6_&si=-QOK-aBXwk4hlYMc"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/rgpv-question-papers-bt-105-engineering-graphics">Top 15 imp</a></td>
+</tr>
+</tr> 
+<tr>
+<td>3.</td>
+<td>Unit 3</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>>
+<td><a href="https://youtube.com/playlist?list=PLDN15nk5uLiD3MEUiqsYPnZOHcVu7um6_&si=-QOK-aBXwk4hlYMc"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/rgpv-question-papers-bt-105-engineering-graphics">Top 8 imp</a></td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Unit 4</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLDN15nk5uLiD3MEUiqsYPnZOHcVu7um6_&si=-QOK-aBXwk4hlYMc"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/rgpv-question-papers-bt-105-engineering-graphics">Top 12 imp</a></td>
+
+</tr>
+<tr>
+<td>5.</td>
+<td>Unit 5</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLDN15nk5uLiD3MEUiqsYPnZOHcVu7um6_&si=-QOK-aBXwk4hlYMc"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="https://www.career-shiksha.com/post/rgpv-question-papers-bt-105-engineering-graphics">Top 20 imp</a></td>
+</tr>
+</tbody>
+</table>
+
+<h1 style="text-align: center; padding-top: 2rem;" id="english">English<IMG SRC="https://shorturl.at/euOPR"style="width: 70px; height: 70px; border-radius:10px";> </h1>
+<table border="1" class="ftco-animate fadeInUp ftco-animated">
+">
+<thead>
+<th>No.</th>
+<th>Units</th>
+<th>PDF </th>
+<th>Youtube link</th>
+<th>PYQ's</th>
+<th>Last min questions.(IMP)</th>
+</thead>
+
+<tbody>
+<tr>
+<td>1.</td>
+<td>Unit 1</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="abc.com">Top 10 imp(NO NEED TO STUDY)</a></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Unit 2</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="abc.com">Top 15 imp(NO NEED TO STUDY)</a></td>
+</tr>
+</tr> 
+<tr>
+<td>3.</td>
+<td>Unit 3</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLvbKJaHKFw3ZYTp2Fc9cj2LwZtIbOd5ux&si=xR4UTcZidrUs-cQN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="abc.com">Top 8 imp(NO NEED TO STUDY)</a></td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Unit 4</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLMfo9NXs6ZfGa3qqm6GS98sMsBqkQy5-a&si=sE8Ph6-IumIcM0HR"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="abc.com">Top 12 imp(NO NEED TO STUDY)</a></td>
+
+</tr>
+<tr>
+<td>5.</td>
+<td>Unit 5</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://youtube.com/playlist?list=PLnyJK8kcdCduqkQ7rWxHyIic6_nOeUS5W&si=Cs4O77iMttQYqKiX"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+<td><a href="abc.com">Top 20 imp(NO NEED TO STUDY)</a></td>
+</tr>
+</tbody>
+</table><br><br>
+
+<h1 style="text-align: center; font-weight: bolder;" id="Sem2">Semester 2</h1>
+        <nav 
+            style="display: flex; flex-direction: row; list-style: none; justify-content: space-evenly;"
+            class="sub-btn"
+            name="Semester" id="Sem2"  onchange="window.location.href=this.value;">
+            <li ><a href="#Physics">Physics</a></li>
+            <li ><a href="#Mathematics-2">Mathematics</a> </li>
+            <li ><a href="#Basic Mechanical Enggineering">Basic Mechanical Engineering</a></li>
+            <li ><a href="#BCME">Basic Civil & Mechanics Engineering</a></li>
+            <li ><a href="#BCE">Basic Computer Engineering</a></li>
+        </nav>
+        <h1 style="text-align: center; padding-top: 5rem; padding-bottom: 1rem;" id="Physics">Physics <img src="./images/chemistry.svg" style="width: 70px; height: 70px;"></h1>
+            <table border="1"  class="ftco-animate fadeInUp ftco-animated">
+         <thead>
+        <th>No.</th>
+        <th>Units</th>
+        <th>PDF's</th>
+        <th>Youtube link</th>
+        <th>PYQ's</th>
+        <th>Last min questions.(IMP)</th>
+        
+                </thead>
+        
+        <tbody style="border: 2px solid black;">
+        <tr >
+            <td >1.</td>
+            <td>Unit 1</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21756&authkey=ADDgfJEVfEPFCCc&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="https://www.youtube.com/playlist?list=PLg2LVpcRrOF5SHahQILs8jRZNOjqKBmbC"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="abc.com">top 10 imp</a></td>
+       
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Unit 2</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21754&authkey=AAIbhs2SpdPaKng&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="https://www.youtube.com/playlist?list=PLg2LVpcRrOF5SHahQILs8jRZNOjqKBmbC"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="abc.com">Top 15 imp</a></td>
+        </tr>
+        </tr> 
+        <tr>
+            <td>3.</td>
+            <td>Unit 3</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21755&authkey=AF1hNQ72YOovmbQ&em=2"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+             <td><a href="https://www.youtube.com/playlist?list=PLg2LVpcRrOF5SHahQILs8jRZNOjqKBmbC"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="abc.com">Top 8 imp</a></td>
+        </tr>
+         <tr>
+            <td>4.</td>
+            <td>Unit 4</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21757&authkey=AMR2yDyH_4wquJg&em=2"target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+            <td><a href="https://www.youtube.com/playlist?list=PLg2LVpcRrOF5SHahQILs8jRZNOjqKBmbC"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="abc.com">Top 12 imp</a></td>
+            
+        </tr>
+         <tr>
+            <td>5.</td>
+            <td>Unit 5</td>
+            <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21749&authkey=ALdXekAgo89Tq_A&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+             <td><a href="https://www.youtube.com/playlist?list=PLg2LVpcRrOF5SHahQILs8jRZNOjqKBmbC"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+            <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+            <td><a href="abc.com">Top 20 imp</a></td>
+        </tr>
+        </tbody>
+     </table>
+
+     <h1 style="text-align: center; padding-top: 2rem;" id="Mathematics-2">Mathematics-2 <img src="images/m1logo.svg" style="width: 70px; height: 70px;"> </h1>
+     <table border="1" class="ftco-animate fadeInUp ftco-animated" data-scrollax-parent="true">
+  <thead>
+ <th>No.</th>
+ <th>Units</th>
+ <th>PDF's</th>
+ <th>Youtube link</th>
+ <th>PYQ's></th>
+ <th>Last min questions.(IMP)</th>
+ 
+         </thead>
+ 
+ <tbody>
+ <tr>
+     <td>1.</td>
+     <td>Unit 1</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+      <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="abc.com">Top 10 imp</a></td>
+ </tr>
+ <tr>
+     <td>2.</td>
+     <td>Unit 2</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+     <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="abc.com">Top 15 imp</a></td>
+ </tr>
+ </tr> 
+ <tr>
+     <td>3.</td>
+     <td>Unit 3</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+     <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="abc.com">Top 8 imp</a></td>
+ </tr>
+  <tr>
+     <td>4.</td>
+     <td>Unit 4</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+     <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="abc.com">Top 12 imp</a></td>
+     
+ </tr>
+  <tr>
+     <td>5.</td>
+     <td>Unit 5</td>
+     <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+     <td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+     <td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
+     <td><a href="abc.com">Top 20 imp</a></td>
+ </tr>
+ 
+</table>
+<h1 style="text-align: center; padding-top: 2rem;" id="Basic Mechanical Enggineering">Basic Mechanical Engineering</h1>
+<table border="1" class="ftco-animate fadeInUp ftco-animated">
+<thead>
+<th>No.</th>
+<th>Units</th>
+<th>PDF </th>
+<th>Youtube link</th>
+<th>PYQ's</th>
+<th>Last min questions.(IMP)</th>
+
+    </thead>
+
+<tbody>
+<tr>
+<td>1.</td>
+<td>Unit 1</td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 10 imp</a></td>
 </tr>
 <tr>
 <td>2.</td>
 <td>Unit 2</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 15 imp</a></td>
 </tr>
 </tr> 
 <tr>
 <td>3.</td>
 <td>Unit 3</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<!-- <td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" >Rgpv.</a></td> -->
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 8 imp</a></td>
 </tr>
 <tr>
 <td>4.</td>
 <td>Unit 4</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 12 imp</a></td>
 
 </tr>
 <tr>
 <td>5.</td>
 <td>Unit 5</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google"><i class="fi fi-brands-youtube"></i></a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21731&authkey=ANmr33gCTrVXODk&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 20 imp</a></td>
 </tr>
 </table>
 
-<h1 id="engineeringgraphics">Engineering Graphics</h1>
+<h1 style="text-align: center; padding-top: 2rem;" id="BCME">Basic Civil & Mechanics Engineering <img src="images/pencil-draw-svgrepo-com.svg" style="width: 90px; height: 80px;"></h1>
 <table border="1" class="ftco-animate fadeInUp ftco-animated">
 <thead>
 <th>No.</th>
@@ -350,55 +616,55 @@
 <th>PYQ's</th>
 <th>Last min questions.(IMP)</th>
 
-  </thead>
+    </thead>
 
 <tbody>
 <tr>
 <td>1.</td>
 <td>Unit 1</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google"><img src="https://fontawesome.com/icons/youtube?f=brands&s=solid" alt=""></a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21769&authkey=AMfbCBG416TyDvU&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 10 imp</a></td>
 </tr>
 <tr>
 <td>2.</td>
 <td>Unit 2</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21770&authkey=AH0jQD3uztYxsxs&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https:/://onedrive.live.com/embed?cid=/www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 15 imp</a></td>
 </tr>
 </tr> 
 <tr>
 <td>3.</td>
 <td>Unit 3</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21770&authkey=AH0jQD3uztYxsxs&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 8 imp</a></td>
 </tr>
 <tr>
 <td>4.</td>
 <td>Unit 4</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21771&authkey=AAWEhzSIfY_7dPs&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 12 imp</a></td>
 
 </tr>
 <tr>
 <td>5.</td>
 <td>Unit 5</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2" target="_blank">Rgpv.</a></td>
-<td><a href="google">youtube</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21767&authkey=AEbAYpkRvrUzXb0&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 20 imp</a></td>
 </tr>
 </tbody>
 </table>
 
-<h1 id="english">English</h1>
+<h1 style="text-align: center; padding-top: 2rem;" id="BCE">Basic Computer Engineering</h1>
 <table border="1" class="ftco-animate fadeInUp ftco-animated
 ">
 <thead>
@@ -414,49 +680,54 @@
 <tr>
 <td>1.</td>
 <td>Unit 1</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21780&authkey=AJZZSCVFwBcN09Y&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 10 imp</a></td>
 </tr>
 <tr>
 <td>2.</td>
 <td>Unit 2</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21778&authkey=AEh8RTRxViLpYpU&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 15 imp</a></td>
 </tr>
 </tr> 
 <tr>
 <td>3.</td>
 <td>Unit 3</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21773&authkey=AOg9y49nrYK_vBU&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 8 imp</a></td>
 </tr>
 <tr>
 <td>4.</td>
 <td>Unit 4</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21774&authkey=APfPNc00yKtawJw&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 12 imp</a></td>
 
 </tr>
 <tr>
 <td>5.</td>
 <td>Unit 5</td>
-<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21728&authkey=ANmmlULSxLLyRao&em=2"target="_blank">Rgpv.</a></td>
-<td><a href="google">$1000</a></td>
-<td ><a href="www.google.com">FOUNDER</a></td>
+<td><a href="https://onedrive.live.com/embed?cid=9F0200C1153A2AA1&resid=9F0200C1153A2AA1%21772&authkey=ALPBFAxyjkXZ2W0&em=2" target="_blank"><img src="./images/pdf.svg" style="width: 40px;" ></a></td>
+<td><a href="https://www.youtube.com/watch?v=Pkm4jxuRNsE&list=PLg2LVpcRrOF6Sn9UO_1Yict2fJYKuQQHN"><img src="images/ytlogo.svg"  style="width: 40px;"></a></td>
+<td ><a href="www.google.com"><img src="https://shorturl.at/IKQR4" style="width: 51px;"></a></td>
 <td><a href="abc.com">Top 20 imp</a></td>
 </tr>
 </tbody>
 </table>
 
-
-
-</body>
 </html>
+
+
+
+
+    
+              
+
+    
