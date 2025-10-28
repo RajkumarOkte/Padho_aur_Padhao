@@ -50,4 +50,4 @@ Real-time chat and doubt-solving feature.
 
 Developed and Deployed by: [Rajkumar Okte and  Team]
 GitHub Repository: [https://github.com/RajkumarOkte/Padho_aur_Padhao.git]
-Deployed Link: [Live Website Link Here]
+Deployed Link: [https://rajkumarokte.github.io/Padho_aur_Padhao/fox-master/about.html]
